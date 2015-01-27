@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<section>
+		<article class="uno"></article>
+		<article class="dos"></article>
+	</section>
+	<style>
+		article{
+			float: left;
+			margin-right: 2%; 
+			width: 48%;
+		}
+
+		.uno{
+			background: red;
+		}
+
+		.dos{
+			background: green;
+		}
+	</style>
+</body>
+</html>

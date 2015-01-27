@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8"/>
 	<meta name="description" content="Proyecto de la primera generacion del 2014 del curso Web Online"/>
+	<meta name="viewport" content="width=device-width, minimun-escale=1, maximun-scale=1"/>
 	<title>Puls2014: Comunidad de Personas Atractivas y sexy</title>
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="estilos.css">
@@ -15,7 +16,7 @@
 		<h1>
 			Puls2014: Comunidad de personas atractivas y sexy
 		</h1>
-		<figure>
+		<figure id="avatar">
 			<img src="avatar.jpg" alt="">
 		</figure>
 	</header>
@@ -27,10 +28,23 @@
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">Django</a></li>
 			<li id="publicar_nav">
-				<a href="#">Publicar</a>
+				<a href="#" class="icon-pluma">Publicar</a>
 			</li>
 		</ul>
 	</nav>
+	
+	<form action="" class="formulario">
+		<input type="text" id="titulo" placeholder="Titulo" required>
+		<input type="url" id="url" placeholder="Link" required>
+		<input type="submit" value="Agregar">
+	</form>
+	<aside>
+		<video width="328" height="240" controls autoplay>
+			<source src="lecturas.mp4" type="video/mp4"/>
+			<source src="lecturas.ogg" type="video/ogg"/>
+		</video>	
+	</aside>
+	
 	<section id="contenido">
 		<article class="item">
 			<figure class="imagen_item">
@@ -52,11 +66,151 @@
 				
 			</div>
 			<div class="votacion">
-				<a href="#" class="up"></a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				720
-				<a href="#" class="down"></a>
+				<a href="#" class="down icon-flecha-abajo"></a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item"></a>
+			</div>
+		</article>
+
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg" alt="">
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">
+					Titulo del Articulo
+				</a>
+			</h2>
+			<p class="autor">
+				por <a href="#">Joana Muñoz</a>
+			</p>
+			<div class="datos_item">
+				<a href="#" class="tag_item">Pony</a>
+				<span>
+					hace <strong>5</strong> min
+				</span>
+				
+			</div>
+			<div class="votacion">
+				<a href="#" class="up icon-flecha-arriba"></a>
+				720
+				<a href="#" class="down icon-flecha-abajo"></a>
+				<a href="#" class="guardar_item icon-estrella"></a>
+				<a href="#" class="comentarios_item">69</a>
+			</div>
+		</article>
+
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg" alt="">
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">
+					Titulo del Articulo
+				</a>
+			</h2>
+			<p class="autor">
+				por <a href="#">Joana Muñoz</a>
+			</p>
+			<div class="datos_item">
+				<a href="#" class="tag_item">Pony</a>
+				<span>
+					hace <strong>5</strong> min
+				</span>
+				
+			</div>
+			<div class="votacion">
+				<a href="#" class="up icon-flecha-arriba"></a>
+				720
+				<a href="#" class="down icon-flecha-abajo"></a>
+				<a href="#" class="guardar_item icon-estrella"></a>
+				<a href="#" class="comentarios_item">69</a>
+			</div>
+		</article>
+
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg" alt="">
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">
+					Titulo del Articulo
+				</a>
+			</h2>
+			<p class="autor">
+				por <a href="#">Joana Muñoz</a>
+			</p>
+			<div class="datos_item">
+				<a href="#" class="tag_item">Pony</a>
+				<span>
+					hace <strong>5</strong> min
+				</span>
+				
+			</div>
+			<div class="votacion">
+				<a href="#" class="up icon-flecha-arriba"></a>
+				720
+				<a href="#" class="down icon-flecha-abajo"></a>
+				<a href="#" class="guardar_item icon-estrella"></a>
+				<a href="#" class="comentarios_item">69</a>
+			</div>
+		</article>
+
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg" alt="">
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">
+					Titulo del Articulo
+				</a>
+			</h2>
+			<p class="autor">
+				por <a href="#">Joana Muñoz</a>
+			</p>
+			<div class="datos_item">
+				<a href="#" class="tag_item">Pony</a>
+				<span>
+					hace <strong>5</strong> min
+				</span>
+				
+			</div>
+			<div class="votacion">
+				<a href="#" class="up icon-flecha-arriba"></a>
+				720
+				<a href="#" class="down icon-flecha-abajo"></a>
+				<a href="#" class="guardar_item icon-estrella"></a>
+				<a href="#" class="comentarios_item">69</a>
+			</div>
+		</article>
+
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg" alt="">
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">
+					Titulo del Articulo
+				</a>
+			</h2>
+			<p class="autor">
+				por <a href="#">Joana Muñoz</a>
+			</p>
+			<div class="datos_item">
+				<a href="#" class="tag_item">Pony</a>
+				<span>
+					hace <strong>5</strong> min
+				</span>
+				
+			</div>
+			<div class="votacion">
+				<a href="#" class="up icon-flecha-arriba"></a>
+				720
+				<a href="#" class="down icon-flecha-abajo"></a>
+				<a href="#" class="guardar_item icon-estrella"></a>
+				<a href="#" class="comentarios_item">69</a>
 			</div>
 		</article>
 	</section>
